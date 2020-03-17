@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif
+ 
+}
+.header_area{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    height: 600px;
+    margin-bottom: 100;
+    
+}
+.header_area h1{
+    color:rgb(219, 36, 97);
+    font-weight: 700;
+    font-size: 30px;
+}
+.half_width{
+    width: 40%;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+    margin-left: 5%;
+    padding-top: 20px;
+    
+    
+}
+.half_width img{
+    width: 90%;
+    overflow: hidden;
+   
+}
+.btnstyle {
+	text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 7px 20px; 
+    border-radius: 5px;
+ 
+    
+}
+
+/* biograpy_area */
+.biograpy_area{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0;
+    height: 600px;
+    margin-bottom: 100;
+    
+}
+
+.Latest_work_area{
+    padding: 40px 0;
+    height: 600px;
+    margin-bottom: 100;
+}
+.Latest_work_area h1{
+    text-align: center;
+}
+.single_colom{
+    width: 31%;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.single_colom img{
+    width: 90%;
+    overflow: hidden;
+    display: block;
+    margin:2%;
+}
+
+.clients_area{
+  text-align: center;  
+}
